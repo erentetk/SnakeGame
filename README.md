@@ -1,14 +1,18 @@
-# Python Snake Game (Yılan Oyunu)
+# Python Snake Game (Çift Yılanlı Savaş)
 
-Bu proje Python ve Pygame kullanılarak geliştirilmiş klasik bir yılan oyunudur.
+Bu proje Python ve Pygame kullanılarak geliştirilmiş, iki yılanın karşılıklı mücadele ettiği bir oyundur.
 
 ## Özellikler
 
-- 5 birim uzunluğunda başlayan yılan
+- İki yılan (Yeşil ve Mavi) aynı anda oynuyor
+- Her yılan A* algoritması ile otomatik hareket ediyor
 - Her 3 yemde bir rastgele oluşan duvarlar
-- Skor sistemi
-- Çarpışma kontrolü (duvarlar ve yılanın kendisi)
-- Kolay kontroller (yön tuşları)
+- Yılanlar birbirleriyle ve duvarlarla çarpışabiliyor
+- Detaylı skor sistemi
+- Farklı kazanma koşulları:
+  - Kafa kafaya çarpışmada uzun olan kazanır
+  - Duvara veya kendine çarpan kaybeder
+  - Yem için yer kalmazsa yüksek skorlu kazanır
 
 ## Gereksinimler
 
@@ -29,10 +33,11 @@ python snake_game.py
 
 ## Nasıl Oynanır
 
-- Yön tuşlarını kullanarak yılanı kontrol edin
-- Kırmızı yemleri toplayarak büyüyün ve puan kazanın
-- Duvarlara ve yılanın kendi vücuduna çarpmamaya dikkat edin
-- Oyun bittiğinde SPACE tuşu ile yeniden başlatın
+- Oyun otomatik olarak oynanır
+- İki yılan aynı anda yemi kapmaya çalışır
+- Yılanlar birbirlerinden ve duvarlardan kaçınır
+- Her yem 10 puan değerindedir
+- Oyun bittiğinde SPACE tuşu ile yeniden başlatılır
 
 ## Lisans
 
