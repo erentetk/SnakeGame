@@ -1,6 +1,7 @@
 # Python Snake Game (Çift Yılanlı Savaş)
 
 Bu proje Python ve Pygame kullanılarak geliştirilmiş, iki yılanın karşılıklı mücadele ettiği bir oyundur.
+![resim](https://github.com/user-attachments/assets/413b6213-3b69-466b-8356-3737fe528607)
 
 ## Özellikler
 
